@@ -1,0 +1,260 @@
+body {
+    text-align: center;
+   background:#161616;
+}
+
+h1{
+color: hsl(178, 100%, 50%);
+padding: 4%;
+margin: 0;
+font-family:serif;
+
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    margin: 0;
+    font-family:serif;
+    transform: scale(1.1);
+    transition: 2s;
+
+   
+    }
+   
+h2{
+    color: hsla(0, 0%, 100%, 0.874);
+    font-weight: 600;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2:hover{
+    color: aqua;
+    text-shadow: 0px 0px 15px #ffffff ;
+
+}
+h3{ 
+    
+    color:#ffffff;
+   
+}
+    
+/* navbar */
+.navbar{
+    background:#161616;
+    margin-top: 2%;
+}
+
+.navbar-toggler {
+    background-color: rgb(24, 24, 25);
+}
+
+.nav-item {
+    text-align: center;
+}
+.navbar .navbar-brand {
+color:hsla(185, 99%, 58%, 0.874);
+font-weight: 600;
+font-family:serif;
+margin-left: 2%;
+}
+.navbar .navbar-brand:hover {
+    color:hsla(185, 100%, 59%, 0.874);
+    text-shadow: #00eaff 0px 0px 8px;
+    font-weight: 600;
+    font-family:serif;
+    margin-left: 2%;
+    }
+    
+
+
+/* title */
+#title{
+    margin: 2%;
+    padding: 0.8rem;
+}
+
+.title-right img {
+    width: 12rem;
+    border-radius: 100%;
+    padding:2%;
+    margin: 4rem 1rem 1rem;
+    transition: 1s;
+    
+
+
+}
+
+.title-right img:hover {
+    width: 12rem;
+    border-radius: 100%;
+    border: #02e7bd double 5px;
+    padding:2%;
+    margin: 4rem 1rem 1rem;
+    transition: 1.5s;
+    
+    transform: scale(1.2);
+
+    
+
+
+}
+
+.title-right {
+    padding: 3%;
+    background:#161616;
+}
+.title-right p{
+    color: #ECDBBA;
+}
+.title-left p
+    {
+        font-family: 'Rampart One', cursive;
+        font-weight: 600;
+        font-size: 4rem ;
+        text-align: center;
+        padding:5% 2% 10%;
+        color:#19ffd5;
+        line-height: 1.5;
+    margin: 2%;
+    background:#161616;
+    transition: 1s;
+
+    }
+
+.title-left span{
+    color: #ffffff;
+
+}
+
+.title-left p:hover
+    {
+        font-family: 'Rampart One', cursive;
+        font-weight: 600;
+        font-size: 4rem ;
+        text-align: center;
+        padding:5% 2% 10%;
+        color:#00eaff;
+        line-height: 1.5;
+    margin: 2%;
+    background:#161616;
+    transform: scale(1.05);
+    transition: 1s;
+    }
+
+.title-left span:hover{
+    color: #ffffff;
+
+}
+.mpzero {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* skills */
+#skills{
+    padding: 6% 3%;
+    background:  #1f2623;
+
+}
+.skill-p{
+    color: #39908e;
+   padding: 3% 7%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: small;
+}
+.skill-img{
+    width: 50%;
+
+
+}
+
+.skill-img:hover{
+    width: 50%;
+    padding: 0%;
+    transition: 1s;
+    transform:scale(1.1);
+}
+.myskills{
+    background: #1f2623 ;
+}
+
+
+
+/* projects */
+
+#projects{
+    padding:5% 5%;
+}
+
+#projects p {
+    color: #39908e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.website-button{
+    margin: 3% 0%;
+    background: #050505;
+    width: 100%;
+}
+#projects a{
+    color: rgb(153, 159, 0);
+    text-decoration: none;
+   
+}
+.website-button:hover{
+    background: #1f1e1e;
+  
+}
+#projects a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+}
+
+#projects img{
+width: 100%;
+}
+/* footer */
+
+#footer button{
+    margin: 10px;
+    
+}
+#footer .btn{
+    background:  #1f2623;
+    border: #00eaff solid 2px;
+}
+#footer .btn:hover{
+    background:  #00a99d;
+    border: #51ffe5 solid 2px;
+    color: #030303;
+    box-shadow: #0dffe7 0px 5px 8px;
+}
+#footer{
+    background:  #1f2623;
+}
+#footer p{
+    color: #cccfcf;
+    font-size: small;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+footer{
+    padding: 1%;
+}
+
+
+
+.fa-brands{
+    padding: 1%;
+    color: #00eaff;
+}
+.fa-brands:hover{
+    color: #ffffff;
+    transform: scale(1.4) rotate(360deg);
+    transition: 1.5s;
+
+   
+}
